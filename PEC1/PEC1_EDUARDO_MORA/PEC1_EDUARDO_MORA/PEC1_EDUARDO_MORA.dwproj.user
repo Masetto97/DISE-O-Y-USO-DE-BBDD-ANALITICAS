@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>SOURCE_edumoraglez</Id>
+            <Name>SOURCE_edumoraglez</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHG+HbOyYbU+gK2tQjznu4AAAAAAmAAAAUwBPAFUAUgBDAEUAXwBlAGQAdQBtAG8AcgBhAGcAbABlAHoAAAADZgAAwAAAABAAAACvreS/jYDaK5HpTdKl8PHtAAAAAASAAACgAAAAEAAAACxuQ34rl9eURaRhi89Ins8oAAAAsMj3PoZ/4cqjUch0wsIkEK22ku/BiBupI7hwf3+1k/lUezXx8uCOEhQAAADeLP2L6wsTi2PcLvkSDYo5LmPu7w==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>SOURCE_edumoraglez</Id>
+            <Name>SOURCE_edumoraglez</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHG+HbOyYbU+gK2tQjznu4AAAAAAmAAAAUwBPAFUAUgBDAEUAXwBlAGQAdQBtAG8AcgBhAGcAbABlAHoAAAADZgAAwAAAABAAAAB4WqMONeOPiM/CoxY9FDwlAAAAAASAAACgAAAAEAAAAEqeQnrKafVu+8V4TVrcLwoYAAAAZBs9WxzcJuoZC1N3agN+0zl18wBSbTX/FAAAAEGsm2idxDvT5SRCa2ACytQD2SF/</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>UCS1R1UOCSQL01</TargetServer>
+        <TargetDatabase>DEST_edumoraglez</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

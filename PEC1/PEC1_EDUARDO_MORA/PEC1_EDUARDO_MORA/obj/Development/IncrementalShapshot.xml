@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DEST_edumoraglez</Database>
+    <Server>UCS1R1UOCSQL01</Server>
+    <ConnectionString>Data Source=UCS1R1UOCSQL01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Q8VLd1GRCPHKCy26XGQAC9RwCVo=15/10/2021 18:48:4012/10/2021 16:51:00</TimeStamp>
+        <ID>
+          <String>SOURCE_edumoraglez</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>MciuHmp+bohDKwMrpf6dWN0GUec=12/10/2021 16:50:5712/10/2021 16:50:59</TimeStamp>
+        <ID>
+          <String>default</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>jwV3CcN5mLtBiRp10XxElL00TEk=15/10/2021 18:48:4015/10/2021 18:01:19</TimeStamp>
+        <ID>
+          <String>SOURCE Edumoraglez</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1wdaxguzaAMjX2/cOHqfcY1XmpY=12/10/2021 16:50:5712/10/2021 16:51:00</TimeStamp>
+        <ID>
+          <String>TABLES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NmZRbjdg1B3dIJvg+KXqSOxbJJA=15/10/2021 18:03:1715/10/2021 18:03:17</TimeStamp>
+        <ID>
+          <String>T DATOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>xxGDwiXX0K+AG4HL8SCoOX68pXU=15/10/2021 17:59:4912/10/2021 16:50:59YkqfR2Ocu92Yd5gKOSRvOB6SGZ4=15/10/2021 17:59:4912/10/2021 16:50:59</TimeStamp>
+        <ID>
+          <String>default</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>obEjamLFDPJknbtHUbKfLCzqvh4=15/10/2021 19:01:3415/10/2021 18:03:17jLtVmblL7KozD3DsFgQnYuLfTmw=15/10/2021 18:03:1715/10/2021 18:03:17</TimeStamp>
+        <ID>
+          <String>SOURCE Edumoraglez</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>r3Y2UCRWMIky2MS0Ezi53LJvq84=12/10/2021 16:50:5712/10/2021 16:50:59</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>bIqbzZez6MJHAqYcSltvD0k8t7E=12/10/2021 16:50:5912/10/2021 16:50:58</TimeStamp>
+      <ID>
+        <String>DEST_edumoraglez</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-10-15T17:01:44.233333Z</LastDeployed>
+</DeploymentSnapshot>

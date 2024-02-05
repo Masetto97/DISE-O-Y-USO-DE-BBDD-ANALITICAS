@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "PEC1_EDUARDO_MORA", "PEC1_EDUARDO_MORA\PEC1_EDUARDO_MORA.dwproj", "{B60B876E-DEBA-447E-BDED-D0BB59719EC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B60B876E-DEBA-447E-BDED-D0BB59719EC5}.Development|Default.ActiveCfg = Development
+		{B60B876E-DEBA-447E-BDED-D0BB59719EC5}.Development|Default.Build.0 = Development
+		{B60B876E-DEBA-447E-BDED-D0BB59719EC5}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2B94FE9-7092-472A-9FB4-2558513BA06A}
+	EndGlobalSection
+EndGlobal
